@@ -1,1 +1,11 @@
 // Mixins Here
+
+.clickable (@c, @bg) {
+    color: @c;
+    background-color: @bg;
+    &:hover {
+        color: @bg;
+        background-color: @c;
+    }
+}
+
